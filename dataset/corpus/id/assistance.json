@@ -1,0 +1,641 @@
+[
+    {
+        "intent": "user.status_check",
+        "utterances": [
+            "Status tiket %ticket%"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan."
+        ]
+    },
+    {
+        "intent": "user.status_help",
+        "utterances": [
+            "Mohon ijin, tolong dibantu untuk status tiket %ticket%"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan."
+        ]
+    },
+    {
+        "intent": "user.status_more",
+        "utterances": [
+            "Status tiket"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.upload_max_file",
+        "utterances": [
+            "Kami mengalami kendala saat melakukan upload file pada saat buat ticket baru, mohon petunjuk agar bisa melakukan upload file"
+        ],
+        "answers": [
+            "Pada file yang diupload mengalamai batas maximum ukuran file, solusi untuk bisa dilakukan upload file kembali dengan melakukan convert ukuran file tidak melebihi 5mb"
+        ]
+    },
+    {
+        "intent": "user.create_not_showing_up",
+        "utterances": [
+            "Data tiket yang sudah dibuat tidak muncul pada listing"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.submit_error",
+        "utterances": [
+            "Muncul error saat submit tiket baru"
+        ],
+        "answers": [
+            "Maaf, saya tidak mengerti error yang anda ajukan\nSilakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_change",
+        "utterances": [
+            "Data tiket yang diedit tidak berubah ketika disubmit"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_duplicate",
+        "utterances": [
+            "Tiket yang baru dibuat menjadi double pada listing tiket"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.create_error_title",
+        "utterances": [
+            "Input title tidak bisa banyak, mohon bantuan"
+        ],
+        "answers": [
+            "Batas input title Maksimal adalah 100 karakter"
+        ]
+    },
+    {
+        "intent": "user.page_number_not_showing_up",
+        "utterances": [
+            "Mencari data tiket tapi nomor halaman tidak bisa di klik"
+        ],
+        "answers": [
+            "Kami mohon maaf atas ketidaknyamanan yang Anda alami. Untuk membantu menyelesaikan masalah ini, kami sarankan Anda menghubungi tim dukungan kami segera."
+        ]
+    },
+    {
+        "intent": "user.delete_error",
+        "utterances": [
+            "Hapus tiket gagal muncul error, mohon di cek"
+        ],
+        "answers": [
+            "Maaf, saya tidak mengerti error yang anda ajukan\nSilakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.update_help",
+        "utterances": [
+            "Setelah edit tidak bisa submit data, mohon bantuan"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_cannot_click",
+        "utterances": [
+            "ID Ticket %ticket% tidak bisa di klik"
+        ],
+        "answers": [
+            "Akan dicek lebih lanjut oleh tim"
+        ]
+    },
+    {
+        "intent": "user.no_data",
+        "utterances": [
+            "Data tidak muncul"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.delete_guidance",
+        "utterances": [
+            "Mohon petunjuk untuk menghapus ticket"
+        ],
+        "answers": [
+            "Untuk melakukan delete ticket dapat megikuti cara berikut\n1. Klik Menu \u201cHelp & Support\u201d pada sidebar\n2. Klik tombol \u201cView Tickets\u201d pada \u201cTeam Ticket List\u201d atau User akan diarahkan ke halaman \u201cTicket List\u201d bila tidak mempunyai tim\n3. Klik icon meetball/more\n4. Klik action delete\n5. Klik konfirmasi delete"
+        ]
+    },
+    {
+        "intent": "user.ticket_category",
+        "utterances": [
+            "Tiket %ticket% tentang apa?"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.ticket_info",
+        "utterances": [
+            "Tiket %ticket% apa?"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.ticket_detail",
+        "utterances": [
+            "Mohon izin, informasi tentang tiket %ticket%"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.ticket_information",
+        "utterances": [
+            "Informasi tiket %ticket%"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.ticket_detail_information",
+        "utterances": [
+            "Detail tiket %ticket%"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.question_ticket",
+        "utterances": [
+            "Apakah Anda bisa memberikan informasi tentang status tiket saya?"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_help_info",
+        "utterances": [
+            "Apakah Anda bisa memberikan informasi tentang status tiket %ticket% saya?"
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.what_my_ticket",
+        "utterances": [
+            "Bagaimana perkembangan status tiket yang saya buka beberapa waktu yang lalu?"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.what_my_ticket_status",
+        "utterances": [
+            "Saya ingin mengetahui status dari tiket yang saya ajukan. Bisakah Anda membantu saya?"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.what_update_my_ticket",
+        "utterances": [
+            "Apakah Anda bisa memberikan update tentang tiket yang saya buka?"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_status",
+        "utterances": [
+            "Mohon informasikan status dari tiket nomor %ticket%."
+        ],
+        "answers": [
+            "Berikut data yang anda butuhkan. Tiket [ID Ticket] dengan judul [Title] memiliki klasifikasi [Classification] dengan penanggung jawab [Helpdesk Team] dan pemohon [Requester] saat ini berstatus [Status]"
+        ]
+    },
+    {
+        "intent": "user.ticket_news_update",
+        "utterances": [
+            "Saya ingin mengetahui apakah ada kemajuan terbaru dengan tiket yang saya ajukan."
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_simple",
+        "utterances": [
+            "Tiket"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.ticket_information_simple",
+        "utterances": [
+            "Informasi tiket"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.edit_error",
+        "utterances": [
+            "Tidak bisa edit"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.delete_error",
+        "utterances": [
+            "Tidak bisa delete"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.listing_news_top",
+        "utterances": [
+            "Data baru tidak muncul paling atas"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.create_back_button",
+        "utterances": [
+            "Tidak bisa klik tombol back"
+        ],
+        "answers": [
+            "Maaf saya tidak mengerti, Silakan beri saya informasi lebih lanjut agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.view_ticket_failed",
+        "utterances": [
+            "Tiket tidak bisa di klik"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.create_ticket_403",
+        "utterances": [
+            "Halaman create ticket 403 mohon di bantu"
+        ],
+        "answers": [
+            "Kami mohon maaf atas ketidaknyamanan yang Anda alami. Untuk membantu menyelesaikan masalah ini, kami sarankan Anda menghubungi tim dukungan kami segera."
+        ]
+    },
+    {
+        "intent": "user.search_find_ticket",
+        "utterances": [
+            "Izin bertanya tentang mencari ticket"
+        ],
+        "answers": [
+            "Untuk search ticket bisa dilakukan dengan\n1. Klik kolom search\n2. Input id ticket atau input title ticket\n3. Akan menampilkan ticket yang dicari"
+        ]
+    },
+    {
+        "intent": "user.question_edit_ticket",
+        "utterances": [
+            "Izin bertanya untuk melakukan edit ticket"
+        ],
+        "answers": [
+            "Untuk edit ticket bisa dilakukan dengan\n1. Klik Menu \u201cHelp & Support\u201d pada sidebar\n2. Klik tombol \u201cView Tickets\u201d pada \u201cTeam Ticket List\u201d atau User akan diarahkan ke halaman \u201cTicket List\u201d bila tidak mempunyai tim\n3. User klik \u201cMore\u201d button\n4. User pilih \u201cEdit\u201d\n"
+        ]
+    },
+    {
+        "intent": "user.create_ticket_mechanism",
+        "utterances": [
+            "Bagaimana mekanisme membuat tiket baru?"
+        ],
+        "answers": [
+            "Mekanisme membuat ticket dapat dilakukan seperti\n1. User klik \u201cCreate Ticket\u201d button\n2. Input title ticket dengan Maksimal input 100 karakter\n3. Input deskripsi ticket dengan maksimal input 5.000 karakter\n4. Upload file sesuai kebutuhan dengan format doc, docx, xls, xlsx, ppt, pptx, pdf, png, jpg\nMaks file size 10 Mb\nMaks 5 files\n5. Klik submit\n\n"
+        ]
+    },
+    {
+        "intent": "user.listing_help_ticket_id",
+        "utterances": [
+            "Mohon bantuan data tiket dengan id %ticket% yang baru dibuat tidak muncul"
+        ],
+        "answers": [
+            "Kami mohon maaf atas ketidaknyamanan yang Anda alami. Untuk membantu menyelesaikan masalah ini, kami sarankan Anda menghubungi tim dukungan kami segera."
+        ]
+    },
+    {
+        "intent": "user.create_problem",
+        "utterances": [
+            "Mohon petunjuk ada kendala kami saat input data tiket"
+        ],
+        "answers": [
+            "Silahkan diperhatikan dalam membuat data tiket baru\n1. User klik \u201cCreate Ticket\u201d button\n2. Input title ticket dengan Maksimal input 100 karakter\n3. Input deskripsi ticket dengan maksimal input 5.000 karakter\n4. Upload file sesuai kebutuhan dengan format doc, docx, xls, xlsx, ppt, pptx, pdf, png, jpg\nMaks file size 10 Mb\nMaks 5 files\n5. Klik submit\n\n"
+        ]
+    },
+    {
+        "intent": "user.edit_file_error",
+        "utterances": [
+            "saya mau edit file namun gabisa"
+        ],
+        "answers": [
+            "Silakan beri saya informasi lebih lanjut seperti no id atau title ticket agar saya dapat memberikan jawaban yang sesuai."
+        ]
+    },
+    {
+        "intent": "user.filter_guidance_error",
+        "utterances": [
+            "Mohon bantuannya untuk filter status tidak menampikan data ticket yang di filter"
+        ],
+        "answers": [
+            "Kami mohon maaf atas ketidaknyamanan yang Anda alami. Untuk membantu menyelesaikan masalah ini, kami sarankan Anda menghubungi tim dukungan kami segera."
+        ]
+    },
+    {
+        "intent": "user.umum_display_not_showing_up",
+        "utterances": [
+            "Layar di ruang training center tidak nyala, mohon petunjuk"
+        ],
+        "answers": [
+            "Pastikan monitor telah menyala dan terhubung ke switch display. Display yang terhubung ke layar utama diatur lewat aplikasi, harap menghubungi bagian Infotek jika masih terjadi kendala."
+        ]
+    },
+    {
+        "intent": "user.umum_email_not_send",
+        "utterances": [
+            "Email saya tidak terkirim, mohon bantuannya"
+        ],
+        "answers": [
+            "Pastikan email tujuan sudah sesuai dan terkoneksi ke jaringan Lemdiklat Polri. Jika kendala masih berlanjut harap menghubungi bagian infotek."
+        ]
+    },
+    {
+        "intent": "user.umum_display_power_on",
+        "utterances": [
+            "TV di ruangan saya tidak menyala, mohon petunjuk"
+        ],
+        "answers": [
+            "Agar TV bisa menyala pastikan power dalam keadaan hidup. Periksa apakah TV bisa dinyalakan melalui control yang ada di belakang TV, jika remote tidak bisa digunakan. Periksa apakah jaringan internet terhubung ke TV. Jika endala masih berlanjut harap menghubungi bagian teknis."
+        ]
+    },
+    {
+        "intent": "user.umum_meeting_room",
+        "utterances": [
+            "Bagaimana cara meminjam ruang meeting"
+        ],
+        "answers": [
+            "Untuk menggunakan ruang meeting harap menghubungi bagian admin ruangan untuk pengecekan penjadwalan ruang meeting"
+        ]
+    },
+    {
+        "intent": "user.umum_install_apps",
+        "utterances": [
+            "Apakah bisa dibantu menginstall aplikasi di komputer saya"
+        ],
+        "answers": [
+            "Untuk instalasi pada komputer yang ada di ruangan, harap menghubungi bagian teknis IT"
+        ]
+    },
+    {
+        "intent": "user.umum_pc_power_offline",
+        "utterances": [
+            "PC di ruangan saya tidak nyala"
+        ],
+        "answers": [
+            "Pastikan PC/komputer terhubung ke power dan lampu indikator menyala. Pastikan Monitor terhubung ke power dan lampu indkator menyala. Jika PC/komputer dalam keadaan mati dapat menekan tombol power kembali. Jika PC/komputer masih tidak menyala harap menghubungi bagian teknis IT."
+        ]
+    },
+    {
+        "intent": "user.guidance_activating_monitor",
+        "utterances": [
+            "Mohon bantuan menampilkan presentasi ke layar"
+        ],
+        "answers": [
+            "Nyalakan TV dan persiapkan laptop yang berisi file paparan. Koneksikan laptop/PC dengan display melalui cara menghubungkan kabel HDMI TV yang tersedia dengan Laptop. Atau gunakan fitur casting jika perangkat laptop/PC mendukung."
+        ]
+    },
+    {
+        "intent": "user.zoom_volume_minimize",
+        "utterances": [
+            "Zoom saya tidak ada suara, mohon bantuannya"
+        ],
+        "answers": [
+            "Jika ada kendala pada fitur suara zoom, pastikan langkah berikut:\n1. Pastikan fitur Join Audio sudah Anda aktifkan\n2. Pastikan terhubung dengan perangkat audio seluler dengan cara klik 'Call' via Device Audio, kemudian izinkan Zoom untuk mengakses mikrofon Anda"
+        ]
+    },
+    {
+        "intent": "user.document_access",
+        "utterances": [
+            "Cara mengakses dokumen-dokumen Lemdiklat seperti apa"
+        ],
+        "answers": [
+            "Dokumen lemdiklat Polri dapat diakses lewat website e-Arsip dan e-Library, silakan menghubungi admin Infotek jika tidak memiliki akses."
+        ]
+    },
+    {
+        "intent": "user.vr_simulation",
+        "utterances": [
+            "Apakah ruang VR boleh dipakai untuk simulasi menembak?"
+        ],
+        "answers": [
+            "Saat ini penggunaan ruang VR belum untuk publik. Jika ingin menjadwalkan latihan, harap menghubungi bagian Infotek."
+        ]
+    },
+    {
+        "intent": "user.guidance_certification",
+        "utterances": [
+            "Bagaimana meminta untuk sertifikasi personil"
+        ],
+        "answers": [
+            "Untuk meminta sertifikasi, harap melakukan pendaftaran online pada aplikasi LSP Polri"
+        ]
+    },
+    {
+        "intent": "user.failed_login_smart_learning",
+        "utterances": [
+            "Saya tidak bisa login smart learning, mohon dibantu"
+        ],
+        "answers": [
+            "Pastikan user name dan password yang diinput ke aplikasi smart learning sudah sesuai. Jika masih terdapat kendala agar menghubungi Support Smart Learning."
+        ]
+    },
+    {
+        "intent": "user.cctv_monitoring_area",
+        "utterances": [
+            "Bagaimana cara memantau CCTV kelas di daerah"
+        ],
+        "answers": [
+            "Untuk pemantauan CCTV kelas, dapat dilakukan lewat aplikasi Smart Learning. Daerah yang bisa dimonitor CCTV kelasnya terdiri dari Pusdiklantas, PTIK, dan Sespim."
+        ]
+    },
+    {
+        "intent": "user.cctv_offline",
+        "utterances": [
+            "CCTV satdik mati dan tidak bisa dimonitor, mohon informasi"
+        ],
+        "answers": [
+            "Untuk CCTV yang tidak muncul pada aplikasi Smart Learning (blank hitam atau putih atau tidak ada CCTV), harap menghubungi bagian teknis Infotek untuk pemeriksaan lebih lanjut."
+        ]
+    },
+    {
+        "intent": "user.emotion_monitor",
+        "utterances": [
+            "Saya mau memantau emosi serdik yang mengikuti pembelajaran, bagaimana caranya"
+        ],
+        "answers": [
+            "Untuk memantau emosi serdik dapat dilakukan lewat aplikasi Smart Learning. Statistik emosi dapat dilihat melalui menu Class Facility untuk kelas yang ingin dipantau, apakah serdik antusias, kurang antusias, fokus atau tidak fokus, dapat dipantau lewat statistik yang ada."
+        ]
+    },
+    {
+        "intent": "user.cctv_monitoring_access",
+        "utterances": [
+            "Apakah saya dapat memantau CCTV pada [pusdik jabar]"
+        ],
+        "answers": [
+            "Mohon maaf, saat ini CCTV kelas yang dapat dipantau hanya untuk Pusdiklantas, PTIK, dan Sespim."
+        ]
+    },
+    {
+        "intent": "user.question_comunication_for_audio",
+        "utterances": [
+            "Bagaimana cara untuk berkomunikasi audio dari pusat ke daerah lewat CCTV kelas"
+        ],
+        "answers": [
+            "Untuk melakukan komunikasi dengan kelas lewat audio/mikrofon, dapat dilakukan lewat aplikasi Smart Learning kemudian buka Class Monitoring, cari kelas yang diinginkan. Kemudian buka salah satu CCTV menu titik 3 dan klik full screen. Pada tampilan full screen akan ada tombol audio dan ini jika diaktifkan akan dapat langsung berkomunikasi dengan perangkat speaker yang di kelas. Fitur ini hanya untuk pimpinan saja."
+        ]
+    },
+    {
+        "intent": "user.question_guidance_sipl",
+        "utterances": [
+            "Dimana saya dapat melihat panduan umum atau langkah langkah penggunaan SIPL"
+        ],
+        "answers": [
+            "Panduan Umum atau langkah-langkah penggunaan SIPL dapat dilihat pada link berikut https://sipl.lemdiklat.polri.go.id/faq"
+        ]
+    },
+    {
+        "intent": "user.question_upload_file",
+        "utterances": [
+            "Bagaimana cara upload jadwal sipl "
+        ],
+        "answers": [
+            "Langkah-langkah untuk upload jadwal dapat dilihat pada link berikut https://sipl.lemdiklat.polri.go.id/faq/view/43"
+        ]
+    },
+    {
+        "intent": "user.problem_instalation_print_card",
+        "utterances": [
+            "Saya terkendala dalam instalasi Print Card Management dan Belum bisa terhubung dengan Printer Evolis"
+        ],
+        "answers": [
+            "Untuk melakukan installasi Print Card Management dan konfigurasi dengan printer evolis dapat dilihat pada link berikut https://docs.google.com/presentation/d/1MDSv3zXgDSzmjIy4MJVctFGysTyqmNhjs7QcsOVURfQ/edit?usp=sharing Jika masih ada kendala silahkan hubungi support pada nomor berikut 08xxxxx"
+        ]
+    },
+    {
+        "intent": "user.problem_print_card",
+        "utterances": [
+            "Sudah berhasil install print card management namun ketika cetak id card tidak berhasil"
+        ],
+        "answers": [
+            "Silahkan hubungi Support SIPL di 08xxxxxxxx"
+        ]
+    },
+    {
+        "intent": "user.failed_to_login",
+        "utterances": [
+            "Saya tidak berhasil login"
+        ],
+        "answers": [
+            "Pastikan username dan password benar jika masih belum berhasil silahkan hubungi support SIPL di 08xxxxxx"
+        ]
+    },
+    {
+        "intent": "user.help_reset_prodiklat",
+        "utterances": [
+            "Bantu saya untuk reset data serdik pada prodiklat X"
+        ],
+        "answers": [
+            "Silahkan hubungi Support SIPL di 08xxxxxxxx"
+        ]
+    },
+    {
+        "intent": "user.how_to_upload_sipl",
+        "utterances": [
+            "Bagaimana cara upload modul ajar pada SIPL "
+        ],
+        "answers": [
+            "Langkah-langkah upload modul ajar pada sipl dapat dilihat pada https://sipl.lemdiklat.polri.go.id/faq/view/36"
+        ]
+    },
+    {
+        "intent": "user.cannot_access_sipl",
+        "utterances": [
+            "Aplikasi SIPL tidak dapat diakses"
+        ],
+        "answers": [
+            "Pastikan Anda sudah terhubung dengan jaringan Lemdiklat Polri, dan akses ke URL berikut https://sipl.lemdiklat.polri.go.id/ jika masih terjadi kendala harap menghubungi Support SIPL di 08xxxxxxx"
+        ]
+    },
+    {
+        "intent": "user.how_to_input_curriculum",
+        "utterances": [
+            "Bagaimana cara menginput kurikulum SIPL"
+        ],
+        "answers": [
+            "Login ke aplikasi SIPL sebagai admin kurikulum, kemudian isikan informasi terkait Matpel pada menu Kurikulum > Mata Pelajaran. Isikan matpel untuk jenis pendidikan dan tahun pelajaran yang sesuai. Untuk mempercepat pengisian dapat juga menggunakan fitur impor file (loader)."
+        ]
+    },
+    {
+        "intent": "user.how_to_download_mobile_sipl",
+        "utterances": [
+            "Dimana saya dapat mendownload aplikasi mobile SIPL"
+        ],
+        "answers": [
+            "Untuk mengakses aplikasi mobile SIPL dapat dilakukan dengan mencari pada app store (untuk iOS) dan play store (untuk android) dengan kata kunci pencarian e-Satdiklat Lemdiklat Polri"
+        ]
+    },
+    {
+        "intent": "user.how_to_get_report_sipl",
+        "utterances": [
+            "Bagaimana cara untuk mengetahui laporan pengisian di SIPL"
+        ],
+        "answers": [
+            "Hasil pengisian data di SIPL hanya dapat dipantau oleh admin pusat, caranya adalah dengan membuka web SIPL dan mengakses laporan Rekapitulasi > LAPORAN PENGISIAN DATA APLIKASI SIPL"
+        ]
+    },
+    {
+        "intent": "user.how_to_upload_information_sipl",
+        "utterances": [
+            "Dimana saya dapat mengupload informasi pengumuman untuk dapat dilihat oleh seluruh serdik"
+        ],
+        "answers": [
+            "Fitur pengumuman hanya dapat diisi oleh admin pusat melalui web SIPL pada menu Admin > Announcement. Hasil pengumuman akan muncul pada aplikasi mobile e-Satdiklat peserta."
+        ]
+    }
+]
